@@ -17,7 +17,7 @@ $ ssh –l username lxslc7.ihep.ac.cn
 ```Bash
 $ export PATH=/afs/ihep.ac.cn/soft/common/sysgroup/hep_job/hep_job.sl7/bin/:$PATH
 ```
-- Submitting Jobs
+- Jobs submission
 ```Bash
 $ chmod +x job.sh
 $ hep_sub job.sh # Submit job
