@@ -6,12 +6,23 @@ Manual: http://afsapply.ihep.ac.cn/cchelp/
 ### Account Application 
 
 - https://login.ihep.ac.cn/afsApply.jsp
-  - Identify: 外籍人员（Foreign ersonnel); Department: 所外; Experiment: ATLAS; Group: atlas
+  - Identify: 外籍人员（Foreign personnel); 
+  - Department: 所外; 
+  - Experiment: ATLAS; 
+  - Group: atlas.
   
 ### Login Cluster
 ```Bash
-$ ssh –l username lxslc7.ihep.ac.cn
+$ ssh username@lxslc7.ihep.ac.cn
 ```
+
+### Pesonal disk space 
+- AFS home directory: /afs/ihep.ac.cn/users/a-z/username; 500MB
+- User personal files: /workfs2/atlas/username; 5GB
+- User temporary files: /scratchfs/atlas; 500GB, keep in 2 Weeks
+- ATLAS shared disk: /publicfs/atlas/; several hundred GB
+
+One have to make a directory he/her self if his/her directory isn't automatic created: mkdir 
 ### HTCondor jobs
 - Setup
 ```Bash
@@ -24,10 +35,11 @@ $ hep_sub job.sh # Submit job
 $ hep_q -u username # Job query
 $ hep_rm -a # delete all current jobs
 ```
+- Detailed guide http://afsapply.ihep.ac.cn/cchelp/en/local-cluster/jobs/HTCondor/
 
-- Running gn2 framework jobs on grid
+### Running gn2 framework jobs on grid
 
-    To submit jobs using ATLAS environment，the setup has to be embodied in the job script. Do not setupATLAS directly in shell!
+To submit jobs using ATLAS environment，the setup has to be embodied in the job script. Do not setupATLAS directly in shell!
 ```Bash
 $ cat job.sh
 ----------------------------
