@@ -43,7 +43,7 @@ $ hep_rm -a # delete all current jobs
 ```
 - Detailed guide http://afsapply.ihep.ac.cn/cchelp/en/local-cluster/jobs/HTCondor/
 
-### Running gn2 framework jobs on grid
+### Running gn2 framework jobs on IHEP cluster using HTCondor
 
 To submit jobs using ATLAS environment，the setup has to be embodied in the job script. Do not setupATLAS directly in shell!
 ```Bash
