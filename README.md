@@ -16,6 +16,12 @@ Manual: http://afsapply.ihep.ac.cn/cchelp/
 $ ssh username@lxslc7.ihep.ac.cn
 ```
 
+### Systematic samples will be saved in  
+```Bash
+/publicfs/atlas/atlasnew/higgs/HHML 
+```
+
+
 ### Pesonal disk space 
 - AFS home directory: /afs/ihep.ac.cn/users/a-z/username; 500MB
 - User personal files: /workfs2/atlas/username; 5GB
