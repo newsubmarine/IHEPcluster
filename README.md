@@ -10,6 +10,7 @@ Manual: http://afsapply.ihep.ac.cn/cchelp/
   - Department: 所外; 
   - Experiment: ATLAS; 
   - Group: atlas.
+  - Contact Person Information: Yaquan Fang; fangyq@ihep.ac.cn
   
 ### Login Cluster
 ```Bash
